@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/7b/19/43/7b19438726426e0ebffb316e460b14fa.jpg);
+    color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Pirata One", system-ui;}
+
+h1 {
+    color: #ff0099;
+    letter-spacing: 2px;
+}
+
+/* Styling untuk logo lingkaran */
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ff0099;
+    object-fit: cover;
+}
+
+.link-btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.link-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
